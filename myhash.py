@@ -1,7 +1,23 @@
 from hashlib import *
 import base64
-######################
+################################################################################################
 
+
+#How to use this lib ?
+#first write 
+#from myhash.Myhash import *
+#example
+#hash1(text , "encode or decode")
+#but you can make encryption hard with write 
+#hard1(text ,"encode or decode" )     or      hard2(text ,"encode or decode" )
+#hard2() is more than safe from hard1()
+
+
+
+
+
+
+##############################################################################################
 class Myhash:
     def __init__(self,type,):
         self.type = type
@@ -9,7 +25,8 @@ class Myhash:
 
 
 
-###################
+##############################################################################################
+
 
     def hash1 (self,choose):
         if choose =="encode":
@@ -53,7 +70,7 @@ class Myhash:
 
 
 
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+##############################################################################################
 
 
     def hard(self,choose):
