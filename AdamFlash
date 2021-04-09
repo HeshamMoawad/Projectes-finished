@@ -53,12 +53,6 @@ while True:
         pywhatkit.playonyt(results)
         pass
 
-
-    elif "open my facebook" in command:
-        talk("i will open your facebook")
-        faceebook()
-        pass
-
     elif "who creat you " or "who created you" in command:
 
         talk("adam alaa")
